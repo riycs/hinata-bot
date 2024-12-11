@@ -6,4 +6,5 @@ Don't forget to follow and star🌟<dir>
 # Thanks To
 - [`Whiskeysockets`](https://github.com/whiskeysockets)
 - [`Yoga`](https://github.com/YogGanz)
+- [`Arthur`](https://github.com/ArthurSatir)
 - [`HisokaLabs`](https://github.com/HisokaLabs)
