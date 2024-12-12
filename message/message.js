@@ -54,11 +54,10 @@ ${prefix}tiktok
 ${prefix}hidetag
 ${prefix}add
 ${prefix}linkgroup
-${prefix}setprofile
 
 *Owner:*
 ${prefix}mode
-${prefix}setprofile`
+${prefix}rvo`
                 return m.reply(text)
             }
             break
@@ -179,7 +178,7 @@ ${prefix}setprofile`
                 }
             }
             break
-            case "setpp": case "setprofile": {
+            /*case "setpp": case "setprofile": {
                 const media = await quoted.download()
                 if (m.isOwner && !m.isGroup) {
                     if (/full/i.test(m.text)) await hinata.setProfilePicture(hinata?.user?.id, media, "full")
@@ -191,7 +190,7 @@ ${prefix}setprofile`
                     else await hinata.setProfilePicture(m.from, media, "normal")
                 }
             }
-            break
+            break*/
             case "rvo": {
             	if (!m.isOwner) return
                 if (!quoted.msg.viewOnce) return m.reply(`Balas/Reply ViewOnce dengan caption: ${prefix + command}`)
